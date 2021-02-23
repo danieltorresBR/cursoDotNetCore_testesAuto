@@ -1,0 +1,8 @@
+{
+    "url": "http://localhost:4200",
+    "test": "",
+    "headless": false, 
+    "screenshot": false, 
+    "retry": false,
+    "element_load_timeout": 15
+}
