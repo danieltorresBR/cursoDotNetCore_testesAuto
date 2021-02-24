@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y5YbUaj1tp98b6p22OzFBWvpZsA/t31OFettb1M9JJn9psDrBp2KHCKaqAoYsVeAElqdmc5oTN3TPGFbyP6dlA==",
+  "dgSpecHash": "rWPS5spN7A8WwZU76k9WjSOnzrzOVxmq89H9crsMcTdfzF/cuAu3eP4NzEN6j45KxcJxJGXPPc9Ck8Uc235vHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\testeCRUD\\cursosDotNetCore\\Angular10dotNETCoreAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\cursoDotNetCore_testesAuto\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danieltorresdev\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
     "C:\\Users\\danieltorresdev\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",

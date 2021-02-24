@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\testeCRUD\\cursosDotNetCore\\Angular10dotNETCoreAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\cursoDotNetCore_testesAuto\\WebAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\testeCRUD\\cursosDotNetCore\\Angular10dotNETCoreAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\cursoDotNetCore_testesAuto\\WebAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\danieltorresdev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\testeCRUD\\cursosDotNetCore\\Angular10dotNETCoreAPI\\WebAPI\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\danieltorresdev\\Documents\\Workspaces\\WorkspaceResidenciaIMD\\cursoDotNetCore_testesAuto\\WebAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danieltorresdev\\AppData\\Roaming\\NuGet\\NuGet.Config"
