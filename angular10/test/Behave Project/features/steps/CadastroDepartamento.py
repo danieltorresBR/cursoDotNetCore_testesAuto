@@ -3,11 +3,11 @@ from features.pages.PaginaInicial import PaginaInicial
 from features.pages.departamento import departamento
 
 
-@step("que esteja na página inicial do CRUD")
+@step("que esteja na página inicial")
 def step_impl(context):
     PaginaInicial(context).navigate_to()
 
-@step("seleciono a opção Departamento")
+@step("seleciono Departamento")
 def step_impl(context):
     PaginaInicial(context).clicar_botao_departamento()
 
@@ -23,7 +23,7 @@ def step_impl(context, nomeDepartamento):
 def step_impl(context):
     departamento(context).clicar_botao_salvar_departamento()
 
-@step("verifico que a mensagem {texto} é exibida")
+@step("a informacao mensagem {texto} é exibida")
 def step_impl(context, texto):
     departamento(context).verificar_msg(texto)
 #    departamento(context).clicar_botao_salvar_departamento()

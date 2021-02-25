@@ -15,6 +15,10 @@ class departamento(BasePage):
         "button_add_departamento" : (By. XPATH, '/html/body/app-root/div/app-department/app-show-dep/button'),
         "preencher_departamento" : (By. XPATH, '/html/body/app-root/div/app-department/app-show-dep/div/div/div/div[2]/app-add-edit-dep/div/div/input'),
         "salvar_departamento" : (By. XPATH, '/html/body/app-root/div/app-department/app-show-dep/div/div/div/div[2]/app-add-edit-dep/button'),
+        "inputId" : (By. XPATH, '/html/body/app-root/div/app-department/app-show-dep/table/thead/tr/th[1]/div/input'),
+        "button_editar_departamento" : (By. XPATH, '/html/body/app-root/div/app-department/app-show-dep/table/tbody/tr/td[3]/button[1]'),
+        "input_edit" : (By. XPATH, '/html/body/app-root/div/app-department/app-show-dep/div/div/div/div[2]/app-add-edit-dep/div/div/input'),
+        "button_atualizar_departamento" : (By. XPATH, '/html/body/app-root/div/app-department/app-show-dep/div/div/div/div[2]/app-add-edit-dep/button'),
     }
 
     def clicar_botao_add_departamento(self):
@@ -33,3 +37,15 @@ class departamento(BasePage):
         assert(texto in alert.text)
         # Store the alert text in a variable text = alert.text
         alert.accept()
+
+    def input_IdDepartamento(self, idDepartamento):
+        self.inputId.send_keys(idDepartamento)
+
+    def clicar_botao_editar_departamento(self):
+        self.click("button_editar_departamento")
+
+    def input_nome_editado_Departamento(self, nomeEditado):
+        self.input_edit.send_keys(nomeEditado)
+
+    def clicar_botao_atualizar_departamento(self):
+        self.click("button_atualizar_departamento")
